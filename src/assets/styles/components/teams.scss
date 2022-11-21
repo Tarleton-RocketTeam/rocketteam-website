@@ -15,6 +15,11 @@
         background: linear-gradient(45deg, #8007e1, #aa47ffc4);
         color: white;
         align-items: center;
+        img {
+            height: 100px;
+            width: 100px;
+            object-fit: cover;
+        }
     }
     .teams-body {
         padding-top: 3%;
@@ -54,4 +59,62 @@
             }
         }
     }
+    .teams-section {
+        width: 100%;
+        .teamslist {
+            width: 100%;
+            .team-box {
+                width: 100%;
+                .team-title {
+                    padding: 1% 20px;
+                    h2 {
+                        width: 100%;
+                        font-family: quicksand;
+                        font-weight: 600;
+                    }
+                }
+                .tsu-teams {
+                    padding: 3% 0;
+                    display: flex;
+                    flex-direction: column;
+                    .person {
+                        margin-bottom: 4%;
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        &.rev {
+                            flex-direction: row-reverse;
+                            .person-img {
+                                margin-left: 10%;
+                            }
+                        }
+                        .person-img {
+                            margin-right: 10%;
+                            img {
+                                height: 350px;
+                                width: 300px;
+                                object-fit: contain;
+                            }
+                        }
+                        .person-info {
+                            display: flex;
+                            flex-direction: column;
+                            h3 {
+                                font-size: 37px;
+                                font-family: poppins;
+                                font-weight: 700;
+                            }
+                            span {
+                                font-family: poppins;
+                                font-size: 17px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
+@media screen and (max-width:768px) {}
