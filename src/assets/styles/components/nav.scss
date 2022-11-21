@@ -1,0 +1,88 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+    border-bottom: 1px solid #c3c3c378;
+    .logo {
+        a {
+            img {
+                height: 40px;
+                width: 40px;
+                object-fit: cover;
+            }
+        }
+    }
+    .nav-items {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        a {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            span {
+                background-color: #000000;
+                height: 5px;
+                width: 5px;
+                margin-top: 2%;
+                transform: scale(0);
+                border-radius: 100%;
+                cursor: pointer;
+                transition: 0.5s;
+            }
+            label {
+                font-family: "Quicksand";
+                font-size: 18px;
+                color: #000000;
+                transition: 0.5s;
+                cursor: pointer;
+            }
+            margin:0 1.6%;
+            text-decoration: none;
+            &:hover {
+                label {
+                    // font-weight: 900;
+                    transition: 0.5s;
+                }
+                span {
+                    transition: 0.5s;
+                    transform: scale(1);
+                }
+            }
+            &.active {
+                label {
+                    font-weight: 900;
+                    transition: 0.5s;
+                }
+                span {
+                    transition: 0.5s;
+                    transform: scale(1);
+                }
+            }
+        }
+    }
+}
+
+// .teams-box {
+//     width: 20%;
+//     position: absolute;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-start;
+//     background: white;
+//     padding: 10px;
+//     box-shadow: 0px 0px 8px rgb(128 128 128 / 27%);
+//     font-weight: 400;
+//     border-radius: 6px;
+//     margin-top: 13px;
+//     max-height: 100%;
+//     a {
+//         color: black;
+//         padding-bottom: 10px;
+//     }
+// }

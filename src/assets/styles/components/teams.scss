@@ -1,0 +1,57 @@
+.teamspage {
+    .header-text {
+        h1 {
+            font-size: 92px;
+            font-family: 'Poppins';
+        }
+    }
+    .banner {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1% 4%;
+        min-height: 100vh;
+        background: linear-gradient(45deg, #8007e1, #aa47ffc4);
+        color: white;
+        align-items: center;
+    }
+    .teams-body {
+        padding-top: 3%;
+        padding: 3% 20px;
+        .intro-text {
+            display: flex;
+            flex-direction: column;
+            h4 {
+                font-family: quicksand;
+                font-weight: 600;
+            }
+            span {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                label {
+                    font-family: quicksand;
+                    margin-right: 0.8%;
+                    font-size: 14px;
+                    border-style: solid;
+                    border-radius: 30px;
+                    border-width: 1px;
+                    padding: 4px 10px;
+                    margin-bottom: 1%;
+                    transition: 0.3s;
+                    cursor: pointer;
+                    &.active {
+                        background: #8007e1;
+                        color: white;
+                    }
+                    &:hover {
+                        background: #8007e1;
+                        color: white;
+                        transition: 0.3s;
+                    }
+                }
+            }
+        }
+    }
+}
