@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import { teamslist,leadershipteam,socialteam } from './teamsdata';
+import { teamslist,leadershipteam,socialteam,electricalteam,mechanicalteam,safetyteam,structuralteam,payloadteam,recoveryteam,avionicsteam, stemteam } from './teamsdata';
 import { NavComponent } from '../components';
 import teamsimg1 from '../assets/images/team1.jpeg'
 import jgreen from '../assets/images/people/jgreen.jpeg'
@@ -35,7 +35,15 @@ function TeamsPage(){
 let allteamsdata=[
 
 {name:'Leadership Team',data:leadershipteam},
+{name:'Electrical Team',data:electricalteam},
+{name:'Payload Team',data:payloadteam},
+{name:'Mechanical Team',data:mechanicalteam},
+{name:'Safety Team',data:safetyteam},
+{name:'Structural Team',data:structuralteam},
+{name:'Recovery Team',data:recoveryteam},
+{name:'Avionics Team',data:avionicsteam},
 {name:'Social Media Team',data:socialteam},
+{name:'Stem Team',data:stemteam},
 ]
 const [teamadata,setteamadata]=React.useState(allteamsdata)
 const [activekek,setactivekek]=React.useState(90)

@@ -8,7 +8,7 @@ import 'boxicons';
 import { Analytics } from '@vercel/analytics/react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingPage from "./landing";
-import LeadershipPage from './leadership'
+import SponsorPage from './sponsor'
 import AboutPage from "./about";
 import TeamsPage from "./teams";
 import ErrorPage from "./errors";
@@ -35,8 +35,8 @@ function Views() {
       path: "/contact",
       element:<ContactPage/>,
       },
-    {path:"/leadership",
-    element:<LeadershipPage/>
+    {path:"/sponsor",
+    element:<SponsorPage/>
     }
       
       

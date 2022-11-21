@@ -9,7 +9,7 @@ return(
     <nav>
     
         <div className="logo">
-    <a href="">
+    <a href="/">
     <img src={oldlogo} alt="" />
     </a>
         </div>

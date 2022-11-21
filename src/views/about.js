@@ -1,11 +1,11 @@
 import React from 'react';
-
+import { NavComponent } from '../components';
 function AboutPage(){
 return (
 
 <>
-
-About Page
+<NavComponent page="about" />
+<div className="about-page"></div>
 </>
 )
 }
