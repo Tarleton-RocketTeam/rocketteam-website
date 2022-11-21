@@ -1,0 +1,23 @@
+.about-page {
+    .header-text {}
+    .banner {
+        background: url('../../images/engb2.jpeg');
+        background-size: contain;
+        width: 100%;
+        height: 100vh;
+        padding: 30px;
+        h1 {
+            color: white;
+            font-family: poppins;
+            font-size: 70px;
+            font-weight: 600;
+            position: relative;
+        }
+        img {
+            height: 70px;
+            width: 70px;
+            object-fit: cover;
+            margin: 0 -1.2%;
+        }
+    }
+}

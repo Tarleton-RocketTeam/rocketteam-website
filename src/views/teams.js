@@ -4,6 +4,8 @@ import { NavComponent } from '../components';
 import teamsimg1 from '../assets/images/team1.jpeg'
 import jgreen from '../assets/images/people/jgreen.jpeg'
 import oldlogo from '../assets/images/oldlogo.png'
+import { Transition } from '@headlessui/react'
+import { useInView } from 'react-intersection-observer';
 
 const placholderimg = 'https://www.pngitem.com/pimgs/m/30-307416_profile-icon-png-image-free-download-searchpng-employee.png'
 
@@ -30,7 +32,8 @@ return(
 )
 }
 
-function TeamsPage(){
+function TeamsPage()
+{ 
 
 let allteamsdata=[
 
