@@ -8,6 +8,11 @@ import jayce from '../assets/images/people/jayce.jpeg';
 import jrousse from '../assets/images/people/jrousse.jpeg';
 import noljn from '../assets/images/people/noljn.jpeg';
 import scampbell from '../assets/images/people/scampbell.jpeg';
+import marksimg from '../assets/images/people/marks.jpeg';
+import weston from '../assets/images/people/weston.jpeg';
+import benson from '../assets/images/people/benson.jpeg'
+import marian from '../assets/images/people/marian.jpeg'
+import kade from '../assets/images/people/kade.jpeg'
 const teamslist = [
     'Leadership Team',
     'Mechanical Team',
@@ -85,7 +90,7 @@ const leadershipteam = [{
     },
     {
         name: "Teddy Oweh",
-        position: "Social Media & Public Relations Lead",
+        position: "Social Media & Public Relations Lead, Web Development Lead",
         img: teddyoweh,
         email: 'ifechukwudeni.oweh@go.tarleton.edu',
         bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
@@ -139,19 +144,43 @@ const mechanicalteam = [
 
 const socialteam = [{
         name: "Teddy Oweh",
-        position: "Social Media & Public Relations Lead",
+        position: "Social Media & Public Relations Lead, Web Development Lead",
         img: teddyoweh,
         email: 'ifechukwudeni.oweh@go.tarleton.edu',
         bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
 
 
+    },
+    {
+        name: "Mark Skrabanek",
+        position: "Social Media & Public Relations Lead",
+        img: marksimg,
+        email: 'marks.scds@go.tarleton.edu',
+        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+
+
+    }, {
+        name: "Marian Barrett ",
+        position: "Social Media & Public Relations Team, Marketing Lead",
+        img: marian,
+        email: 'marian@go.tarleton.edu',
+        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+
+
     }
+
 
 ]
 const recoveryteam = [{
     name: 'Jacob Rousse',
     position: 'Recovery Team Lead',
     img: jrousse,
+    email: 'jacoob@go.tarleton.edu',
+    bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+}, {
+    name: 'Kade Moore',
+    position: 'Recovery Team',
+    img: kade,
     email: 'jacoob@go.tarleton.edu',
     bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
 }]
@@ -168,6 +197,24 @@ const payloadteam = [{
         position: "Payload Engineer, Microcomputer and Communication Systems",
         img: teddyoweh,
         email: 'ifechukwudeni.oweh@go.tarleton.edu',
+        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+
+
+    },
+    {
+        name: "Ashland Benson",
+        position: "Payload Engineer, Deployment Systems",
+        img: benson,
+        email: 'ashland.benson@go.tarleton.edu',
+        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+
+
+    },
+    {
+        name: "Weston Sublett",
+        position: "Payload Engineer",
+        img: weston,
+        email: 'weston@go.tarleton.edu',
         bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
 
 
@@ -194,6 +241,14 @@ const avionicsteam = [
         img: noljn,
         email: 'nolan.j@go.tarleton.edu',
         bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+
+    }, {
+        name: "Mark Skrabanek",
+        position: "Avionics Engineer",
+        img: marksimg,
+        email: 'marks.scds@go.tarleton.edu',
+        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+
 
     }
 
