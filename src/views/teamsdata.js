@@ -167,6 +167,13 @@ const socialteam = [{
         bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
 
 
+    },{
+        name:'Jordan Prigmore',
+        position:'Social Media & Public Relations Team',
+        img:null,
+        email:'jordan.prigmore@go.tarleton.edu',
+        bio:'Worked with photography and media posts. engaging with team behind the camera and through fans upon all platforms. '
+
     }
 
 
@@ -183,7 +190,7 @@ const recoveryteam = [{
     position: 'Recovery Engineer',
     email:'Isaac.bethea@go.tarleton.edu',
     bio:'Assist the lead engineer with designing a manufacturing a recovery system for the rocket',
-    image:null
+    img:null
 
 },
 {
@@ -252,7 +259,7 @@ const safetyteam = [
         email:'coel.goen@go.tarleton.edu',
         position:'Safety Officer',
         bio:'Second in command of Systems & Testing. Helping maintain documentation and proper safety protocols.',
-        image:null
+        img:null
     }
 
 ]
@@ -273,6 +280,13 @@ const avionicsteam = [
         bio: null,
 
 
+    },{
+        name:'Isaac Talbot',
+        email:'isaac.talbot@go.tarleton.edu',
+        position:'Avionics Engineer',
+        bio:'Assisted with the brainstorming process.',
+        img:null
+
     }
 
 ]
@@ -285,6 +299,12 @@ const stemteam = [
         img: noljn,
         email: 'nolan.j@go.tarleton.edu',
         bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+    },
+    {
+        name:'Stella Kelley',
+        email:'',
+        position:'STEM Outreach Sponsorship Lead',
+        bio:'Assisted in finding sponsorships and products that help the STEM Outreach program. I also help teach STEM to participating members of the STEM OutReach program. '
     }
 ]
 const electricalteam = [
