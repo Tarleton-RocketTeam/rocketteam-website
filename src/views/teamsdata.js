@@ -93,7 +93,7 @@ const leadershipteam = [{
         position: "Social Media & Public Relations Lead, Web Development Lead",
         img: teddyoweh,
         email: 'ifechukwudeni.oweh@go.tarleton.edu',
-        bio: null,
+        bio: 'Lead the growth and development of the Tarleton Rocket Team Web Development and Social Media Presence.  ',
 
 
     },
@@ -147,7 +147,7 @@ const socialteam = [{
         position: "Social Media & Public Relations Lead, Web Development Lead",
         img: teddyoweh,
         email: 'ifechukwudeni.oweh@go.tarleton.edu',
-        bio: 'Worked with ',
+        bio: 'Lead the growth and development of the Tarleton Rocket Team Web Development and Social Media Presence.',
 
 
     },
@@ -212,10 +212,10 @@ const payloadteam = [{
     },
     {
         name: "Teddy Oweh",
-        position: "Payload Engineer, Microcomputer and Communication Systems",
+        position: "Payload Engineer, Microcontroller and Communication Systems",
         img: teddyoweh,
         email: 'ifechukwudeni.oweh@go.tarleton.edu',
-        bio: null,
+        bio: 'Developed the payload system code involving various image processing functionalilies and communications process with the a signal reciever, assisted with embedding the code unto the microcontroller.',
 
 
     },
