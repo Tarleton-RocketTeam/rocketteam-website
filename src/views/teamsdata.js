@@ -31,7 +31,7 @@ const leadershipteam = [{
         position: 'Chief Engineer',
         img: jgreen,
         email: 'jaygreen@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
     },
     {
@@ -64,11 +64,11 @@ const leadershipteam = [{
     },
     {
 
-        name: 'Chris Trotter',
-        position: 'Structural Team Lead',
+        name: 'Christopher Trotter',
+        position: 'Design and Structural Team Lead',
         img: ctrotter,
-        email: 'chris.trotter@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        email: 'christopher.trotter@go.tarleton.edu',
+        bio: 'Overview of the design of the rocket and construction processes ',
 
 
     },
@@ -76,7 +76,7 @@ const leadershipteam = [{
         name: 'Samuel Campbell',
         position: 'Safty Team Lead',
         img: scampbell,
-        email: 'sam.campbell@go.tarleton.edu',
+        email: 'samuel.campbell01@go.tarleton.edu ',
         bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
 
     },
@@ -101,8 +101,8 @@ const leadershipteam = [{
         name: 'Jacob Rousse',
         position: 'Recovery Team Lead',
         img: jrousse,
-        email: 'jacoob@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        email: 'jacob.rousse@go.tarleton.edu',
+        bio: 'Recovery Lead',
     }, {
         name: 'Nolan Johnson',
         position: 'Avionics Team Lead',
@@ -120,10 +120,10 @@ const leadershipteam = [{
 const structuralteam = [{
 
     name: 'Chris Trotter',
-    position: 'Structural Team Lead',
+    position: 'Design and Structural Team Lead',
     img: ctrotter,
-    email: 'chris.trotter@go.tarleton.edu',
-    bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+    email: 'christopher.trotter@go.tarleton.edu',
+    bio: 'Overview of the design of the rocket and construction processes.',
 
 
 }, ]
@@ -131,11 +131,11 @@ const mechanicalteam = [
 
     {
 
-        name: 'Ben Trotter',
+        name: 'Benjamin Trotter',
         position: 'Mechanical Team Lead',
         img: btrotter,
-        email: 'ben.trotter@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        email: 'benjamin.trotter@go.tarleton.edu',
+        bio: 'Lead Mechanical Engineer',
 
 
     }
@@ -147,7 +147,7 @@ const socialteam = [{
         position: "Social Media & Public Relations Lead, Web Development Lead",
         img: teddyoweh,
         email: 'ifechukwudeni.oweh@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: 'Worked with ',
 
 
     },
@@ -155,8 +155,8 @@ const socialteam = [{
         name: "Mark Skrabanek",
         position: "Social Media & Public Relations Lead",
         img: marksimg,
-        email: 'marks.scds@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        email: 'mark.skrabanek@go.tarleton.edu',
+        bio: 'Helped lead the social media team by discussing the best next steps to grow our platforms and by developing our existing website and growing our social media presence across all platforms',
 
 
     }, {
@@ -175,15 +175,26 @@ const recoveryteam = [{
     name: 'Jacob Rousse',
     position: 'Recovery Team Lead',
     img: jrousse,
-    email: 'jacoob@go.tarleton.edu',
-    bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
-}, {
+    email: 'jacob.rousse@go.tarleton.edu',
+    bio: 'Recovery Lead',
+},
+{
+    name:'Isaac',
+    position: 'Recovery Engineer',
+    email:'Isaac.bethea@go.tarleton.edu',
+    bio:'Assist the lead engineer with designing a manufacturing a recovery system for the rocket',
+    image:null
+
+},
+{
     name: 'Kade Moore',
     position: 'Recovery Team',
     img: kade,
     email: 'jacoob@go.tarleton.edu',
     bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
-}]
+}
+
+]
 const payloadteam = [{
         name: 'Jayce Thedford',
         position: 'Payload Team Lead',
@@ -200,6 +211,12 @@ const payloadteam = [{
         bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
 
 
+    },
+    {
+        name:'Leo Cahill',
+        email:'leo.cahill@go.tarleton.edu',
+        position:'Payload Engineer, Communication Systems',
+        bio:'Worked on the receiver section of the payload system.'
     },
     {
         name: "Ashland Benson",
@@ -225,11 +242,17 @@ const safetyteam = [
 
     {
         name: 'Samuel Campbell',
-        position: 'Safty Team Lead',
+        position: 'Safety and Testing Team Lead',
         img: scampbell,
-        email: 'sam.campbell@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        email: 'samuel.campbell01@go.tarleton.edu ',
+        bio: 'Ensure all safety documents are up to date and everything is compliant with safety regulations. Designs all tests, and either conducts or assists in all testing. Also leads payload fabrication and assists with design and fabrication of all sections',
 
+    },{
+        name:'Coel Goen',
+        email:'coel.goen@go.tarleton.edu',
+        position:'Safety Officer',
+        bio:'Second in command of Systems & Testing. Helping maintain documentation and proper safety protocols.',
+        image:null
     }
 
 ]
@@ -246,8 +269,8 @@ const avionicsteam = [
         name: "Mark Skrabanek",
         position: "Avionics Engineer",
         img: marksimg,
-        email: 'marks.scds@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        email: 'mark.skrabanek@go.tarleton.edu',
+        bio: null,
 
 
     }
