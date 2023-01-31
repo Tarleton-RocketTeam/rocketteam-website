@@ -39,7 +39,7 @@ const leadershipteam = [{
         position: 'Faculty Advisor',
         img: hydie,
         email: 'Hyedi@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
     },
     {
@@ -47,7 +47,7 @@ const leadershipteam = [{
         position: 'Electrical Team Lead',
         img: domm,
         email: 'domanic@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
 
 
@@ -58,7 +58,7 @@ const leadershipteam = [{
         position: 'Mechanical Team Lead',
         img: btrotter,
         email: 'ben.trotter@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
 
     },
@@ -77,7 +77,7 @@ const leadershipteam = [{
         position: 'Safty Team Lead',
         img: scampbell,
         email: 'samuel.campbell01@go.tarleton.edu ',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
     },
     {
@@ -85,7 +85,7 @@ const leadershipteam = [{
         position: 'Payload Team Lead',
         img: jayce,
         email: 'jayce@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
     },
     {
@@ -93,7 +93,7 @@ const leadershipteam = [{
         position: "Social Media & Public Relations Lead, Web Development Lead",
         img: teddyoweh,
         email: 'ifechukwudeni.oweh@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
 
     },
@@ -108,7 +108,7 @@ const leadershipteam = [{
         position: 'Avionics Team Lead',
         img: noljn,
         email: 'nolan.j@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
     }
 
@@ -164,7 +164,7 @@ const socialteam = [{
         position: "Social Media & Public Relations Team, Marketing Lead",
         img: marian,
         email: 'marian@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
 
     },{
@@ -198,7 +198,7 @@ const recoveryteam = [{
     position: 'Recovery Team',
     img: kade,
     email: 'jacoob@go.tarleton.edu',
-    bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+    bio: null,
 }
 
 ]
@@ -207,7 +207,7 @@ const payloadteam = [{
         position: 'Payload Team Lead',
         img: jayce,
         email: 'jayce@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
     },
     {
@@ -215,7 +215,7 @@ const payloadteam = [{
         position: "Payload Engineer, Microcomputer and Communication Systems",
         img: teddyoweh,
         email: 'ifechukwudeni.oweh@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
 
     },
@@ -230,7 +230,7 @@ const payloadteam = [{
         position: "Payload Engineer, Deployment Systems",
         img: benson,
         email: 'ashland.benson@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
 
     },
@@ -239,7 +239,7 @@ const payloadteam = [{
         position: "Payload Engineer",
         img: weston,
         email: 'weston@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
 
     }
@@ -270,7 +270,7 @@ const avionicsteam = [
         position: 'Avionics Team Lead',
         img: noljn,
         email: 'nolan.j@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
     }, {
         name: "Mark Skrabanek",
@@ -298,7 +298,7 @@ const stemteam = [
         position: 'STEM Team Lead',
         img: noljn,
         email: 'nolan.j@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
     },
     {
         name:'Stella Kelley',
@@ -314,7 +314,7 @@ const electricalteam = [
         position: 'Electrical Team Lead',
         img: domm,
         email: 'domanic@go.tarleton.edu',
-        bio: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium exercitationem dolore, q!',
+        bio: null,
 
 
 
