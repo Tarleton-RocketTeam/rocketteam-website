@@ -56,7 +56,7 @@ return(
         
             </div>
             <div className="join-btn">
-            <a href="">Join</a>
+            <a href="https://texansync.tarleton.edu/organization/tar">Join</a>
             </div>
     
     </nav>
