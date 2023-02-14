@@ -1,93 +1,68 @@
 .about-page {
     background: linear-gradient(45deg, #fcfcfc, #b3acbb1c);
-
-    .header-text {}
-   .banner{
-    .banner-text{
+    .banner-box{
+        height: 100vh;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: flex-end;
-        padding: 30px 60px;
-  .left{
-    display: flex;
-    flex-direction: column;
-    font-size: 40px;
-    width: 40%;
-
-    font-weight: 800;
-  }
-  .right{
-    width: 60%;
-    p{
-        font-size: 14px;
+        flex-direction: column;
+    }
+    .header{
         width: 100%;
-    }
-  }
-        span{
-            color: #9432e6;
-        }
-    }
-    .banner-imgs{
-        display: flex;
         flex-direction: row;
-        padding: 0 30px;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+text-align: center;
+margin: 20px 0;
+h1{
+    font-size: 52px;
+    font-family: 'Poppins';
+}
         img{
-             object-fit: cover;
-            border-radius: 19px;
-            height: 439px;
-            &.one{
-                width: 69%;
-   
 
-            }
-            &.two{
-                width: 29%;
-            }
-        }
+
+        height:50px;
+        object-fit: cover;
+        width: 50px;
     }
-   
-   }
-   .about-text{
+    }
+.banner{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    width: 100;
     align-items: center;
-    padding: 50px 40px;
-.left1{
-display: flex;
-flex-direction: row;
-font-size: 56px;
-width: 40%;
+    justify-content: center;
 
-font-weight: 800;
-b{
-    transform: rotate(305deg);
-    margin-left: 15px;
-    font-size: 60px;
-
-}
-}
-
-.right{
-width: 60%;
-padding-top: 40px;
-p{
-
-    width: 100%;
-    &.one{
-        color: black;
-        font-weight: 600;
-        font-size: 16px;
+    .dcol{
+        display: flex;
+        flex-direction: column;
     }
-    &.two{
-        font-size: 14px;
+    .drow{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    img{
+        border-radius: 10px;
+        margin-bottom: 20px;
+        height: 100px;
+        object-fit: cover;
+        &.sz1{
+width: 200px;
+height: 200px;
+        }
+        &.sz2{
+            
+        }
+        &.sz3{
+            height: 500px;
+            width: 250px;
+        }
     }
 }
-}
-    span{
-        color:black;
+.about-content{
+    padding: 10px 100px;
+    text-align: center;
+    h1{
+        font-size: 42px;
+        font-family: 'Poppins';
     }
 }
 }
